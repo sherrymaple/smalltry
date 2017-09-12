@@ -1,0 +1,50 @@
+
+h3 {
+	background-color: black;
+	width: 260px;
+	height: 35px;
+	color: white;
+	padding: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+dt {
+	font-weight: bold;
+	line-height: 35px;
+}
+
+.line {
+	position: absolute;
+	top: 102px;
+	height: 800px;
+	width: 300px;
+	background-color: white;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+dl {
+	line-height: 40px;
+	padding: 20px;
+	border-top: 1px dashed #838383;
+}
+
+dl dd {
+	margin: 0px;
+	padding: 0px;
+}
+
+.line .dl1 {
+	border-top: hidden;
+}
+
